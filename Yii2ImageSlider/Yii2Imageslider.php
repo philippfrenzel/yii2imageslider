@@ -74,7 +74,7 @@ class Yii2Imageslider extends Widget
 
         //get the displayed view and register the needed assets
         $view = $this->getView();
-        Yii2ImageSliderAsset::register($view);
+        Yii2ImagesliderAsset::register($view);
 
         $js = array();
         
