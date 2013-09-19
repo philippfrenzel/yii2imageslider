@@ -4,7 +4,7 @@
  * @author Philipp Frenzel <philipp@frenzel.net> 
  */
 
-namespace Yii2Tooltipster;
+namespace Yii2ImageSlider;
 
 use yii\web\AssetBundle;
 
@@ -12,15 +12,14 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class Yii2TooltipsterAsset extends AssetBundle
+class Yii2ImageSliderAsset extends AssetBundle
 {
-    public $sourcePath = '@Yii2Tooltipster/assets';
+    public $sourcePath = '@Yii2ImageSlider/assets';
     public $css = array(
-        'css/tooltipster.css',
-        'css/themes/tooltipster-light.css'
+        'css/als_default_style.css'
     );
     public $js = array(
-        'js/jquery.tooltipster.min.js'
+        'js/jquery.als-1.2.min.js'
     );
     public $depends = array(
         'yii\web\JqueryAsset',

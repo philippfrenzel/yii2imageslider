@@ -1,7 +1,7 @@
 {
-	"name": "philippfrenzel/Yii2Tooltipster",
-	"description": "Yii2 tooltipster Integration",
-	"keywords": ["yii", "framework","yii2 jquery tooltipster"],
+	"name": "philippfrenzel/Yii2ImageSlider",
+	"description": "Any List Scroller for Yii2",
+	"keywords": ["yii2", "framework","yii2 jquery any list scroller"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "library",
 	"license": "BSD-3-Clause",
@@ -11,16 +11,21 @@
 			"email": "philipp@frenzel.net",
 			"homepage": "http://www.frenzel.net/",
 			"role": "Author Version Yii2"
+		},
+		{
+			"name": "Federica Sibella",
+			"homepage": "http://www.musings.it/",
+			"role": "ASL Writer"
 		}
 	],
 	"support": {
-		"source": "https://github.com/philippfrenzel/yii2tooltipster"
+		"source": "https://github.com/philippfrenzel/yii2imageslider"
 	},
 	"minimum-stability": "dev",
 	"require": {
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "Yii2Tooltipster\\": "/" }
+		"psr-0": { "Yii2ImageSlider\\": "/" }
 	}
 }
