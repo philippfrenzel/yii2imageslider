@@ -21,6 +21,23 @@ class Yii2Imageslider extends Widget
 {
 
     /**
+     * @var array list of slides in the imageslider. Each array element represents a single
+     * slide with the following structure:
+     *
+     * ```php
+     * array(
+     *     // required, slide content (HTML), such as an image tag
+     *     'content' => '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg"/>',
+     *     // optional, the caption (HTML) of the slide
+     *     'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
+     *     // optional the HTML attributes of the slide container
+     *     'options' => array(),
+     * )
+     * ```
+     */
+    public $items = array();
+
+    /**
     * @var array the HTML attributes (name-value pairs) for the field container tag.
     * The values will be HTML-encoded using [[Html::encode()]].
     * If a value is null, the corresponding attribute will not be rendered.
@@ -115,7 +132,7 @@ class Yii2Imageslider extends Widget
             $content = $item['content'];
             $caption = ArrayHelper::getValue($item, 'caption');
             if ($caption !== null) {
-                $caption = Html::tag('div', $caption, array('class' => 'carousel-caption'));
+                $caption = Html::tag('div', $caption, array('class' => 'asl-caption'));
             }            
         } else {
             throw new InvalidConfigException('The "content" option is required.');
