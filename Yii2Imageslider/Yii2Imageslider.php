@@ -53,9 +53,18 @@ class Yii2Imageslider extends Widget
 
 
     /**
+     * can contain all configuration options
     * @var array all attributes that be accepted by the plugin, check docs!
+    * visible_items
+    * scrolling_items
+    * orientation
+    * circular
+    * autoscroll
+    * interval
+    * direction
     */
-    public $clientOptions = array();
+    public $clientOptions = array(
+    );
 
     /**
      * Initializes the widget.
@@ -103,7 +112,7 @@ class Yii2Imageslider extends Widget
         $className = $this->options['class'];
         
         $options = empty($this->clientOptions) ? '' : Json::encode($this->clientOptions);
-        $js[] = "$('$className').tooltipster($options);";
+        $js[] = "$('#$id').als($options);";
         
         $view->registerJs(implode("\n", $js),View::POS_READY);
     }
