@@ -11,10 +11,15 @@
 namespace Yii2Imageslider;
 
 use Yii;
+
 use yii\base\Model;
 use yii\base\View;
+use yii\base\InvalidConfigException;
+
 use yii\helpers\Html;
 use yii\helpers\Json;
+use yii\helpers\ArrayHelper;
+
 use yii\base\Widget as Widget;
 
 class Yii2Imageslider extends Widget
