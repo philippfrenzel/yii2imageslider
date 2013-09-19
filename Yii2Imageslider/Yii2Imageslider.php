@@ -135,7 +135,7 @@ class Yii2Imageslider extends Widget
      */
     public function renderControls($position='begin')
     {
-        if ($position === 'begin')) {
+        if ($position === 'begin') {
             //<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>
             return  Html::beginTag('span',array('class'=>'als-prev')). "\n"
                     .Html::Tag('icon', array(
