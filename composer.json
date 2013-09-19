@@ -1,5 +1,5 @@
 {
-	"name": "philippfrenzel/Yii2ImageSlider",
+	"name": "philippfrenzel/yii2imageslider",
 	"description": "Any List Scroller for Yii2",
 	"keywords": ["yii2", "framework","yii2 jquery any list scroller"],
 	"homepage": "http://www.frenzel.net/",
@@ -26,6 +26,6 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "Yii2ImageSlider\\": "/" }
+		"psr-0": { "Yii2Imageslider\\": "/" }
 	}
 }
