@@ -169,7 +169,7 @@ class Yii2Imageslider extends Widget
         if ($position === 'begin') {
             //<span class="als-prev"><img src="images/thin_left_arrow_333.png" alt="prev" title="previous" /></span>
             return  Html::beginTag('span',array('class'=>'als-prev')). "\n"
-                    .Html::Tag('icon', array(
+                    .Html::Tag('i', array(
                         'class' => 'icon icon-arrow-left',
                         'title' => 'prev',
                     )) . "\n"
@@ -177,7 +177,7 @@ class Yii2Imageslider extends Widget
         } else {
             //<span class="als-next"><img src="images/thin_right_arrow_333.png" alt="next" title="next" /></span>
             return  Html::beginTag('span',array('class'=>'als-prev')). "\n"
-                    .Html::Tag('icon', array(
+                    .Html::Tag('i', array(
                         'class' => 'icon icon-arrow-left',
                         'title' => 'prev',
                     )) . "\n"
