@@ -112,7 +112,7 @@ class Yii2Imageslider extends Widget
         $className = $this->options['class'];
         
         $options = empty($this->clientOptions) ? '' : Json::encode($this->clientOptions);
-        $js[] = "$('#$id').als($options);";
+        $js[] = "jQuery('#$id').als($options);";
         
         $view->registerJs(implode("\n", $js),View::POS_READY);
     }
