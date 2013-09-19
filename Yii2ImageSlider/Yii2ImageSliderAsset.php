@@ -4,7 +4,7 @@
  * @author Philipp Frenzel <philipp@frenzel.net> 
  */
 
-namespace Yii2ImageSlider;
+namespace Yii2Imageslider;
 
 use yii\web\AssetBundle;
 
@@ -12,9 +12,9 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class Yii2ImageSliderAsset extends AssetBundle
+class Yii2ImagesliderAsset extends AssetBundle
 {
-    public $sourcePath = '@Yii2ImageSlider/assets';
+    public $sourcePath = '@Yii2Imageslider/assets';
     public $css = array(
         'css/als_default_style.css'
     );

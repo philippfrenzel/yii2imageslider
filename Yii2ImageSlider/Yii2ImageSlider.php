@@ -8,7 +8,7 @@
  *
  */
 
-namespace Yii2ImageSlider;
+namespace Yii2Imageslider;
 
 use Yii;
 use yii\base\Model;
@@ -17,7 +17,7 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\Widget as Widget;
 
-class Yii2ImageSlider extends Widget
+class Yii2Imageslider extends Widget
 {
 
     /**
