@@ -27,5 +27,8 @@
 	},
 	"autoload": {
 		"psr-0": { "Yii2Imageslider\\": "/" }
-	}
+	},
+	"extra": {
+          "bootstrap": "Yii2Imageslider\\Extension"
+  }
 }
