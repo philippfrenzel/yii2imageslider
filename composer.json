@@ -3,7 +3,7 @@
 	"description": "Any List Scroller for Yii2",
 	"keywords": ["yii2", "framework","yii2 jquery any list scroller"],
 	"homepage": "http://www.frenzel.net/",
-	"type": "library",
+	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
