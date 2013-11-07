@@ -13,7 +13,7 @@ namespace Yii2Imageslider;
 use Yii;
 
 use yii\base\Model;
-use yii\base\View;
+use yii\web\View;
 use yii\base\InvalidConfigException;
 
 use yii\helpers\Html;
