@@ -22,6 +22,6 @@ class Extension extends \yii\base\Extension
    */
   public static function init()
   {
-    Yii::setAlias('@yii2imageslider', __DIR__);
+    Yii::setAlias('@Yii2Imageslider', __DIR__);
   }
 }
