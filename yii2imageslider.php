@@ -53,7 +53,7 @@ class yii2imageslider extends Widget
 
 
     /**
-     * can contain all configuration options
+    * can contain all configuration options
     * @var array all attributes that be accepted by the plugin, check docs!
     * visible_items
     * scrolling_items
