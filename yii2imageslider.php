@@ -8,7 +8,7 @@
  *
  */
 
-namespace Yii2Imageslider;
+namespace philippfrenzel\yii2imageslider;
 
 use Yii;
 
@@ -22,7 +22,7 @@ use yii\helpers\ArrayHelper;
 
 use yii\base\Widget as Widget;
 
-class Yii2Imageslider extends Widget
+class yii2imageslider extends Widget
 {
 
     /**
@@ -105,7 +105,7 @@ class Yii2Imageslider extends Widget
 
         //get the displayed view and register the needed assets
         $view = $this->getView();
-        Yii2ImagesliderAsset::register($view);
+        yii2imagesliderAsset::register($view);
 
         $js = array();
         
