@@ -26,9 +26,7 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "Yii2Imageslider\\": "/" }
+		"psr-0": { "philippfrenzel\\yii2imageslider\\": "" }
 	},
-	"extra": {
-          "bootstrap": "Yii2Imageslider\\Extension"
-  }
+	"target-dir": "philippfrenzel/yii2imageslider"
 }
