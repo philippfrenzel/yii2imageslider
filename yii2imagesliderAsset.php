@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class yii2imagesliderAsset extends AssetBundle
 {
-    public $sourcePath = '@yii2imageslider/assets';
+    public $sourcePath = '@philippfrenzel/yii2imageslider/assets';
     public $css = array(
         'css/als_default_style.css'
     );
